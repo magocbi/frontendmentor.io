@@ -123,6 +123,12 @@ ul {
 .item a {
   margin-left: auto;
   font-weight: 700;
+  color: hsl(var(--clr-primary));
+}
+
+.item a:hover {
+  text-decoration: none;
+  color: hsl(var(--clr-primary) / 0.7);
 }
 
 .order-btn {
@@ -136,7 +142,11 @@ ul {
   color: hsl(var(--clr-neutral-light));
   font-weight: 900;
   font-size: 1rem;
-  box-shadow: 0 15px 20px hsl(var(--clr-neutral) / 0.5);
+  box-shadow: 0 16px 10px hsl(var(--clr-neutral) / 0.2);
+}
+
+.order-btn.primary:hover {
+  background-color: hsl(var(--clr-primary) / 0.7);
 }
 
 .order-btn.cancel {
@@ -144,4 +154,8 @@ ul {
   font-size: 1rem;
   background-color: transparent;
   font-weight: 900;
+}
+
+.order-btn.cancel:hover {
+  color: hsl(var(--clr-neutral-dark));
 }
