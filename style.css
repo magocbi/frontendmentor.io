@@ -64,10 +64,12 @@ ul {
 }
 
 .container-order {
-  background-color: #fff;
+  background-color: hsl(var(--clr-neutral-light));
   margin: 0 1.2rem;
   border-radius: 20px;
   overflow: hidden;
+
+  box-shadow: 0 10px 30px hsl(var(--clr-neutral) / 0.5);
 }
 
 .hero img {
@@ -121,4 +123,25 @@ ul {
 .item a {
   margin-left: auto;
   font-weight: 700;
+}
+
+.order-btn {
+  padding: 1em 0.75em;
+  border-radius: 8px;
+  border: 0;
+}
+
+.order-btn.primary {
+  background-color: hsl(var(--clr-primary));
+  color: hsl(var(--clr-neutral-light));
+  font-weight: 900;
+  font-size: 1rem;
+  box-shadow: 0 15px 20px hsl(var(--clr-neutral) / 0.5);
+}
+
+.order-btn.cancel {
+  color: hsl(var(--clr-neutral));
+  font-size: 1rem;
+  background-color: transparent;
+  font-weight: 900;
 }
