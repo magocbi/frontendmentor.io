@@ -1,0 +1,31 @@
+:root {
+  --clr-primary: hsl(245, 75%, 52%);
+  --clr-primary--light: hsl(225, 100%, 94%);
+
+  --clr-neutral: hsl(224, 23%, 55%);
+  --clr-neutral-light: hsl(225, 100%, 98%);
+  --clr-neutral-dark: (223, 47%, 23%);
+
+  --ff-serif: 'Red Hat Display', sans-serif;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 1rem;
+}
+
+h1,
+h2,
+p {
+  padding: 0;
+  margin: 0;
+}
+
+ul {
+  padding: 0;
+}
