@@ -134,9 +134,11 @@ ul {
 }
 
 .item a {
+  display: inline-block;
   margin-left: auto;
   font-weight: 700;
   color: hsl(var(--clr-primary));
+  text-underline-offset: 5px;
 }
 
 .item a:hover {
