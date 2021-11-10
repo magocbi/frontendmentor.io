@@ -35,7 +35,7 @@ ul {
 
 .container {
   background-color: hsl(var(--clr-primary--light));
-  background-image: url('./images/pattern-background-desktop.svg');
+  background-image: url('./images/pattern-background-mobile.svg');
   background-repeat: repeat-x;
   background-size: auto 50%;
   background-position-x: center;
@@ -44,4 +44,19 @@ ul {
   align-items: center;
   justify-content: center;
   min-width: 350px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.container-order {
+  background-color: #fff;
+  margin: 0 1.2rem;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.hero img {
+  width: 100%;
 }
