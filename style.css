@@ -148,6 +148,7 @@ ul {
   padding: 1em 0.75em;
   border-radius: 8px;
   border: 0;
+  cursor: pointer;
 }
 
 .order-btn.primary {
