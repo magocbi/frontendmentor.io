@@ -1,0 +1,177 @@
+:root {
+  --clr-primary: 245 75% 52%;
+  --clr-primary--light: 225 100% 94%;
+
+  --clr-neutral: 224 23% 55%;
+  --clr-neutral-light: 225 100% 98%;
+  --clr-neutral-dark: 223 47% 23%;
+
+  --ff-serif: 'Red Hat Display', sans-serif;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  font-size: 1rem;
+  font-family: var(--ff-serif);
+}
+
+h1,
+h2,
+p {
+  padding: 0;
+  margin: 0;
+}
+
+ul {
+  padding: 0;
+}
+
+/* utilities */
+
+.text-center {
+  text-align: center;
+}
+
+.capitalize {
+  text-transform: capitalize;
+}
+
+.flex {
+  display: flex;
+}
+
+.text-color-neutral {
+  color: hsl(var(--clr-neutral));
+}
+
+.container {
+  background-color: hsl(var(--clr-primary--light));
+  background-image: url('./images/pattern-background-mobile.svg');
+  background-size: auto 50%;
+  background-repeat: repeat-x;
+  background-position-x: center;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+  min-width: 350px;
+}
+
+.container-order {
+  background-color: hsl(var(--clr-neutral-light));
+  width: min(100%, 31rem);
+  margin: 1rem 1.2rem;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0 10px 30px hsl(var(--clr-neutral) / 0.5);
+}
+
+.hero img {
+  width: 100%;
+}
+
+.container-summary {
+  padding: 2em 1.5em;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+@media (min-width: 500px) {
+  .container {
+    background-image: url('./images/pattern-background-desktop.svg');
+  }
+
+  .container-summary {
+    padding: 2em 3em;
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+}
+
+.order-summary {
+  padding: 0 1em;
+  flex-direction: column;
+  gap: 1.5rem;
+  margin-bottom: 1em;
+}
+
+.order-description {
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.order-description h1 {
+  font-size: 1.5rem;
+  font-weight: 900;
+}
+.order-description p {
+  line-height: 1.5;
+}
+
+.item-list {
+  list-style: none;
+}
+
+.item {
+  gap: 1rem;
+  align-items: center;
+}
+
+.item-logo img {
+  width: 100%;
+}
+
+.item-desc h2 {
+  font-size: 1rem;
+  font-weight: 700;
+  margin-bottom: 0.2rem;
+}
+
+.item a {
+  display: inline-block;
+  margin-left: auto;
+  font-weight: 700;
+  color: hsl(var(--clr-primary));
+  text-underline-offset: 5px;
+}
+
+.item a:hover {
+  text-decoration: none;
+  color: hsl(var(--clr-primary) / 0.7);
+}
+
+.order-btn {
+  padding: 1em 0.75em;
+  border-radius: 8px;
+  border: 0;
+  cursor: pointer;
+}
+
+.order-btn.primary {
+  background-color: hsl(var(--clr-primary));
+  color: hsl(var(--clr-neutral-light));
+  font-weight: 900;
+  font-size: 1rem;
+  box-shadow: 0 16px 10px hsl(var(--clr-neutral) / 0.2);
+}
+
+.order-btn.primary:hover {
+  background-color: hsl(var(--clr-primary) / 0.7);
+}
+
+.order-btn.cancel {
+  color: hsl(var(--clr-neutral));
+  font-size: 1rem;
+  background-color: transparent;
+  font-weight: 900;
+}
+
+.order-btn.cancel:hover {
+  color: hsl(var(--clr-neutral-dark));
+}
