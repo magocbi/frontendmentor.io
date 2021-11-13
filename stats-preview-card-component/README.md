@@ -54,7 +54,8 @@ Responsiveness and JS.
 
 ### Useful resources
 
-- [MDN after pseudo](https://developer.mozilla.org/en-US/docs/Web/CSS/::after) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
+- [MDN after pseudo](https://developer.mozilla.org/en-US/docs/Web/CSS/::after) - This helped me with the overlay over the element.
+- [CSS tricks](https://css-tricks.com/basics-css-blend-modes/) - This helped me getting the correct color on the image.
 
 ## Author
 
