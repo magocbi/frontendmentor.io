@@ -40,7 +40,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Github](https://github.com/magocbi/fem-order-summary)
-- Live Site URL: [Github Page](https://order-summary-component-mgcbi.netlify.app/)
+- Live Site URL: [Netlify](https://order-summary-component-magocbi.netlify.app/)
 
 ## My process
 
