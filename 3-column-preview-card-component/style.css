@@ -117,12 +117,31 @@ body {
 .btn {
   display: inline-block;
   background-color: hsl(var(--clr-neutral));
-  padding: 1em 2.1em;
+  padding: 0.9em 2.1em;
   border-radius: 2rem;
 }
 
 a.btn {
   text-decoration: none;
+}
+
+.btn:hover,
+.btn:focus {
+  border: 2px solid hsl(var(--clr-neutral));
+  color: hsl(var(--clr-neutral));
+}
+
+.bg-primary .btn:hover,
+.bg-primary .btn:focus {
+  background-color: hsl(var(--clr-primary));
+}
+.bg-accent .btn:hover,
+.bg-accent .btn:focus {
+  background-color: hsl(var(--clr-accent));
+}
+.bg-accent-dark .btn:hover,
+.bg-accent-dark .btn:focus {
+  background-color: hsl(var(--clr-accent-dark));
 }
 
 .attribution {
