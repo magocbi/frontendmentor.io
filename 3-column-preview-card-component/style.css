@@ -124,6 +124,8 @@ body {
   background-color: hsl(var(--clr-neutral));
   padding: 0.9em 2.1em;
   border-radius: 2rem;
+
+  border: 2px solid hsl(var(--clr-neutral));
 }
 
 a.btn {
@@ -132,7 +134,6 @@ a.btn {
 
 .btn:hover,
 .btn:focus {
-  border: 2px solid hsl(var(--clr-neutral));
   color: hsl(var(--clr-neutral));
 }
 
