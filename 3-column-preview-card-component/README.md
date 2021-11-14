@@ -31,7 +31,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Github](https://github.com/magocbi/frontendmentor.io/tree/main/3-column-preview-card-component)
-- Live Site URL: [Netlify](3-column-preview-card-component-magocbi.netlify.app)
+- Live Site URL: [Netlify](https://3-column-preview-card-component-magocbi.netlify.app/)
 
 ## My process
 
