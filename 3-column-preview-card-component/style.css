@@ -82,6 +82,8 @@ body {
 /* Layout */
 
 .container {
+  width: 100vw;
+  min-height: 100vh;
   padding: 1rem;
   display: flex;
   justify-content: center;
@@ -93,6 +95,7 @@ body {
 }
 
 .cards {
+  width: min(90%, 1000px);
   border-radius: 0.5rem;
   overflow: hidden;
 }
@@ -101,6 +104,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
+  justify-content: space-between;
   gap: 0.7rem;
   padding: 3.5em;
 }
@@ -150,4 +154,14 @@ a.btn {
 }
 .attribution a {
   color: hsl(228, 45%, 44%);
+}
+
+@media screen and (min-width: 760px) {
+  .cards {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .btn {
+    margin-top: 3rem;
+  }
 }
