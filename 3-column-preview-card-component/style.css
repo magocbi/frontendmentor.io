@@ -89,6 +89,7 @@ body {
   justify-content: center;
   align-items: center;
   padding: 5rem 1rem;
+  background-color: hsl(var(--clr-neutral-dark));
 }
 
 .grid {
