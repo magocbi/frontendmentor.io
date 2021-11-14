@@ -1,3 +1,77 @@
+:root {
+  --clr-primary: 31 77% 52%;
+  --clr-accent: 184 100% 22%;
+  --clr-accent-dark: 179 100% 13%;
+
+  --clr-neutral: 0 0% 100%;
+  --clr-neutral-dark: 0 0% 95%;
+
+  --ff-cursive: 'Big Shoulders Display', cursive;
+  --ff-sans-serif: 'Lexend Deca', sans-serif;
+}
+
+/* Reset */
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
+/* globals */
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 0.9375rem;
+}
+/* Utilities */
+
+.text-white {
+  color: hsl(var(--clr-neutral));
+}
+
+.text-white-transparent {
+  color: hsl(var(--clr-neutral) / 0.75);
+}
+
+.text-grey {
+  color: hsl(var(--clr-neutral-dark));
+}
+
+.capitalize {
+  text-transform: capitalize;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.bg-primary {
+  background-color: hsl(var(--clr-primary));
+}
+.bg-primary {
+  background-color: hsl(var(--clr-accent));
+}
+.bg-primary {
+  background-color: hsl(var(--clr-accent-dark));
+}
+
+/* Layout */
+
+.container {
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.grid {
+  display: grid;
+}
+
 .attribution {
   font-size: 11px;
   text-align: center;
