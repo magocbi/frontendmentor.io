@@ -1,3 +1,15 @@
+:root {
+  --clr-primary: 227 10% 46%;
+  --clr-primary-dark: 229 23% 23%;
+  --clr-accent: 185 75% 39%;
+
+  --clr-neutral: 0 0% 59%;
+
+  --ff-sans-serif: 'Kumbh Sans', sans-serif;
+
+  --fs-500: 1.125rem;
+}
+
 .attribution {
   font-size: 11px;
   text-align: center;
