@@ -55,3 +55,7 @@ Responsive design and JS.
 ## Author
 
 - Frontend Mentor - [@magocbi](https://www.frontendmentor.io/profile/magocbi)
+
+## Acknowledgments
+
+From [this](https://github.com/MonaElshikh/profile-card-component) solution by [Mona Elshikh](https://www.frontendmentor.io/profile/MonaElshikh) I realized an easy fix to the way background position calculates percentages. Instead of using percentages which according to [MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/background-position) would be calculated based on free space between container and img dimensions, you hardcode the percentages but with vw or vh.
