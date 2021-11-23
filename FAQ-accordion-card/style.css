@@ -72,19 +72,19 @@ ul {
 
 .img-container {
   position: absolute;
-  height: 14rem;
   width: 80%;
+  aspect-ratio: 1;
   top: 0;
   /*  */
   background: no-repeat url('./images/illustration-woman-online-mobile.svg'),
     no-repeat url('./images/bg-pattern-mobile.svg');
-  background-position: top center, bottom center;
+  background-position: center center, bottom center;
   background-size: contain;
-  transform: translateY(-50%);
+  transform: translateY(-60%);
 }
 
 .faq-info {
-  margin-top: 7rem;
+  margin-top: 7.5rem;
 }
 
 .faq-info h1 {
