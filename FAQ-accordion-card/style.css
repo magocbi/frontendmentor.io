@@ -1,3 +1,7 @@
+:root {
+  --ff-sans-serif: 'Kumbh Sans', sans-serif;
+}
+
 .attribution {
   font-size: 11px;
   text-align: center;
