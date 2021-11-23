@@ -29,6 +29,26 @@ ul {
   padding: 0;
 }
 
+/* Utilities */
+
+.container {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+}
+
+.bg-gradient {
+  background: linear-gradient(
+    0deg,
+    hsl(var(--clr-gradient-blue)),
+    hsl(var(--clr-gradient-violet))
+  );
+}
+
 .attribution {
   font-size: 11px;
   text-align: center;
