@@ -11,6 +11,19 @@
   --ff-sans-serif: 'Kumbh Sans', sans-serif;
 }
 
+/* Reset */
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-size: 0.75rem;
+}
+
 .attribution {
   font-size: 11px;
   text-align: center;
