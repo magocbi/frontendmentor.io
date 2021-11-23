@@ -38,7 +38,7 @@ ul {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 1rem;
+  padding: 2rem 1.2rem;
 }
 
 .bg-gradient {
@@ -47,6 +47,16 @@ ul {
     hsl(var(--clr-gradient-blue)),
     hsl(var(--clr-gradient-violet))
   );
+}
+
+.bg-white {
+  background-color: white;
+}
+
+/* Layout */
+
+.faq-container {
+  padding: 2.5em 2em;
 }
 
 .attribution {
