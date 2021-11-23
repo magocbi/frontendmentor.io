@@ -1,4 +1,13 @@
 :root {
+  --clr-gradient-violet: 273 75% 66%;
+  --clr-gradient-blue: 240 73% 65%;
+  --clr-primary-blue-dark: 238 29% 16%;
+  --clr-primary-red: 14 88% 65%;
+
+  --clr-neutral-blue: 240 6% 50%;
+  --clr-neutral-blue-dark: 237 12% 33%;
+  --clr-neutral-blue-light: 240 5% 91%;
+
   --ff-sans-serif: 'Kumbh Sans', sans-serif;
 }
 
