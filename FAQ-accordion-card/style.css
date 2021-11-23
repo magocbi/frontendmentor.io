@@ -64,7 +64,7 @@ ul {
   position: relative;
   padding: 0 2em 2.5em;
   border-radius: 2rem;
-  width: min(95%, 800px);
+  width: min(95%, 1000px);
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -88,6 +88,7 @@ ul {
 }
 
 .faq-info h1 {
+  text-align: center;
   color: hsl(var(--clr-primary-blue-dark));
   font-size: 2.3rem;
   font-weight: 700;
@@ -135,4 +136,32 @@ ul {
 }
 .attribution a {
   color: hsl(228, 45%, 44%);
+}
+
+@media screen and (min-width: 760px) {
+  .faq-container {
+    flex-direction: row;
+    padding: 4rem 8rem;
+    justify-content: flex-end;
+    align-items: center;
+  }
+
+  .img-container {
+    width: 65%;
+    left: 0;
+    top: 10%;
+  }
+
+  .faq-info {
+    width: 50%;
+    margin-top: 0;
+  }
+
+  .faq-info h1 {
+    text-align: start;
+  }
+
+  .img-container {
+    transform: translateY(0) translateX(-35%);
+  }
 }
