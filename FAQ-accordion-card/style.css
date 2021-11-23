@@ -38,7 +38,7 @@ ul {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 2rem 1.2rem;
+  padding: 10rem 1.2rem;
 }
 
 .bg-gradient {
@@ -56,8 +56,30 @@ ul {
 /* Layout */
 
 .faq-container {
-  padding: 2.5em 2em;
+  position: relative;
+  padding: 0 2em 2.5em;
   border-radius: 2rem;
+  width: min(95%, 800px);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.img-container {
+  position: absolute;
+  height: 14rem;
+  width: 80%;
+  top: 0;
+  /*  */
+  background: no-repeat url('./images/illustration-woman-online-mobile.svg'),
+    no-repeat url('./images/bg-pattern-mobile.svg');
+  background-position: top center, bottom center;
+  background-size: contain;
+  transform: translateY(-50%);
+}
+
+.faq-info {
+  margin-top: 7rem;
 }
 
 .attribution {
