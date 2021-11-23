@@ -57,6 +57,7 @@ ul {
 
 .faq-container {
   padding: 2.5em 2em;
+  border-radius: 2rem;
 }
 
 .attribution {
