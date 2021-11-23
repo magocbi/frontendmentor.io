@@ -113,6 +113,13 @@ ul {
   font-size: 0.8rem;
   font-weight: 400;
 }
+.title:hover h2 {
+  color: hsl(var(--clr-primary-red));
+}
+
+.selected h2 {
+  font-weight: 700;
+}
 
 .title span {
   color: hsl(var(--clr-primary-red));
