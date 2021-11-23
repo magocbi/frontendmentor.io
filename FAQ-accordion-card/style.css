@@ -22,6 +22,7 @@
 body {
   margin: 0;
   font-size: 0.75rem;
+  font-family: var(--ff-sans-serif);
 }
 
 ul {
@@ -53,6 +54,10 @@ ul {
   background-color: white;
 }
 
+.text-center {
+  text-align: center;
+}
+
 /* Layout */
 
 .faq-container {
@@ -80,6 +85,41 @@ ul {
 
 .faq-info {
   margin-top: 7rem;
+}
+
+.faq-info h1 {
+  color: hsl(var(--clr-primary-blue-dark));
+  font-size: 2.3rem;
+  font-weight: 700;
+}
+
+.question-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.question {
+  border-bottom: 1px solid hsl(var(--clr-neutral-blue-light));
+}
+
+.title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.title h2 {
+  color: hsl(var(--clr-neutral-blue-dark));
+  font-size: 0.8rem;
+  font-weight: 400;
+}
+
+.title span {
+  color: hsl(var(--clr-primary-red));
+}
+
+.answer {
+  color: hsl(var(--clr-neutral-blue));
 }
 
 .attribution {
