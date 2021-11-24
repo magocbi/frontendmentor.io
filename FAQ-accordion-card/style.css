@@ -147,7 +147,11 @@ ul {
   color: hsl(228, 45%, 44%);
 }
 
-@media screen and (min-width: 760px) {
+@media screen and (min-width: 768px) {
+  .container {
+    padding: 0 6em 2.5em;
+  }
+
   .faq-container {
     flex-direction: row;
     padding: 4rem 8rem;
@@ -157,14 +161,28 @@ ul {
 
   .img-container {
     background: no-repeat url('./images/illustration-box-desktop.svg'),
-      no-repeat url('./images/illustration-woman-online-desktop.svg'),
-      no-repeat url('./images/bg-pattern-desktop.svg');
-    background-position: bottom left, bottom center, center center;
+      no-repeat url('./images/illustration-woman-online-desktop.svg');
+    background-position: bottom 50px left -50px, bottom center,
+      bottom -100px center;
     background-size: 40%, contain, contain;
-    width: 65%;
+    width: 50%;
     left: 0;
-    top: 10%;
-    transform: translateY(0) translateX(-35%);
+    transform: translateY(0) translateX(-25%);
+  }
+
+  .img-container::before {
+    position: absolute;
+    content: '';
+    top: 0;
+    width: 125%;
+    height: 125%;
+    background: no-repeat bottom center / contain
+      url('./images/bg-pattern-desktop.svg');
+    transform: translateY(0) translateX(-20%);
+  }
+
+  .answer {
+    width: 80%;
   }
 
   .faq-info {
