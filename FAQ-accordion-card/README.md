@@ -14,6 +14,7 @@ This is a solution to the [FAQ accordion card challenge on Frontend Mentor](http
   - [Continued development](#continued-development)
   - [Useful resources](#useful-resources)
 - [Author](#author)
+- [Acknowledgments](#acknowledgments)
 
 ## Overview
 
@@ -58,3 +59,7 @@ Image positioning and JS.
 ## Author
 
 - Frontend Mentor - [@magocbi](https://www.frontendmentor.io/profile/magocbi)
+
+## Acknowledgments
+
+From [this](https://github.com/Clupai8o0/faq-accordion-card) solution by [Clupai8o0](https://www.frontendmentor.io/profile/Clupai8o0) I realized that I needed to hardcore image height or not use justify or align otherwise as they are empty divs they have 0 height. Ended up using a hardcoded height for faq card.
